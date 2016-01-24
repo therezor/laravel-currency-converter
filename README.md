@@ -33,4 +33,4 @@ Currency converter widget for laravel 5
 
 4) Run ```php artisan vendor:publish```
 
-5) Add into view where you want to be the widget ```@widget('CurrencyConverter')```
+5) Add  ```@widget('CurrencyConverter')``` into view where you want the widget to be
