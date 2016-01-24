@@ -1,0 +1,104 @@
+.currency-widget{
+    background: #F8F8F8;
+    border: 1px solid #CCC;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 20px
+}
+
+.currency-widget-form {
+    font-family: inherit;
+}
+
+.currency-widget-form__error {
+    color: #ac2925;
+    text-align: left;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.currency-widget-form__amount {
+    padding: 6px 4px;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #ccc;
+    width: 150px;
+}
+
+.currency-widget-form__from, .currency-widget-form__to{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    padding: 6px 4px;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+.currency-widget-form__submit{
+    padding: 6px 10px;
+    background: #333;
+    color: #fff;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    border:1px solid #222;
+    cursor: pointer;
+}
+
+.currency-widget-form__swap {
+    text-decoration: none;
+    color: #333;
+}
+
+.currency-widget-result{
+    margin-top:20px;
+    width:100%;
+    background: #333;
+    border-radius: 4px;
+    padding: 20px
+}
+
+.currency-widget-result--hide{
+    display: none;
+}
+
+.currency-widget-result__from-amount{
+    width:47%;
+    font-size:20px;
+    text-align: right;
+    color: #FFF;
+}
+
+.currency-widget-result__to-amount {
+    width:47%;
+    font-size:20px;
+    text-align: left;
+    color: #FFF;
+}
+
+.currency-widget-result__cell {
+    width:6%;
+    font-size:20px;
+    color: #BBB;
+    text-align: center;
+}
+
+.currency-widget-result__from-rate{
+    width:47%;
+    font-size:12px;
+    text-align: right;
+    color: #CCC;
+}
+
+.currency-widget-result__to-rate{
+    width:47%;
+    font-size:12px;
+    text-align: left;
+    color: #CCC;
+}
