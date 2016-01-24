@@ -4,7 +4,7 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.5.0",
+        "php": ">=5.5.9",
         "arrilot/laravel-widgets": "3.2",
         "laravel/framework": "5.2.*"
     },
