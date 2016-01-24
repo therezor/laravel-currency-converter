@@ -2,6 +2,7 @@
     "name": "therezor/laravel-currency-converter-widget",
     "description": "Laravel 5 widget for converting currency",
     "license": "MIT",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.5.0",
         "arrilot/laravel-widgets": "3.2",
